@@ -30,10 +30,10 @@ The records were transcribed from digitized text files originating from historic
 ### 🧾 Files
 | File | Description |
 |------|-------------|
-| `V1.txt`, `V2.txt` | Raw text files containing roll call votes extracted from archival convention transcripts. Each line corresponds to a delegate’s recorded vote. |
-| `rcv_extraction_and_analysis.ipynb` | Python notebook that parses, cleans, and structures the raw data into a vote-by-delegate matrix, followed by PCA and clustering analysis. |
-| `wnominate.R` | R script implementing **W-NOMINATE** scaling and visualization using **ggplot2**. |
-| `pcc68_roll_call_report.pdf` *(optional)* | Full written report detailing data sources, methodology, and findings. |
+| [V1.txt](https://github.com/yourusername/your-repo-name/blob/main/V1.txt) | Raw text file containing the first batch of roll call votes extracted from the Pennsylvania Constitutional Convention transcripts. Each line corresponds to a delegate’s recorded vote. |
+| [V2.txt](https://github.com/yourusername/your-repo-name/blob/main/V2.txt) | Raw text file containing the second batch of roll call votes from later sessions of the convention. |
+| [rcv_extraction_and_analysis.ipynb](https://github.com/yourusername/your-repo-name/blob/main/rcv_extraction_and_analysis.ipynb) | Python notebook that parses, cleans, and structures the raw data into a vote-by-delegate matrix, followed by PCA and clustering analysis. |
+| [wnominate.R](https://github.com/yourusername/your-repo-name/blob/main/wnominate.R) | R script implementing **W-NOMINATE** scaling and visualization using **ggplot2**. |
 
 ---
 
@@ -98,8 +98,7 @@ It serves as a valuable foundation for exploring the emergence of **partisan vot
 
 ## 🗺️ Primary Visualization: NOMINATE Map
 
-The **NOMINATE map** below visualizes delegates’ ideological positions based on their roll call votes at the convention.  
-Each point represents a delegate positioned along two latent ideological dimensions derived from voting behavior. Although the convention was **nonpartisan by rule**, the clustering in the map suggests **de facto partisan alignment** among many delegates.
+The **NOMINATE map** below visualizes delegates’ ideological positions based on their roll call votes at the convention. Each point represents a delegate positioned along two latent ideological dimensions derived from voting behavior. Although the convention was **nonpartisan by rule**, the clustering in the map suggests **de facto partisan alignment** among many delegates.
 
 ![NOMINATE Map](wnominate_plot.png)
 
@@ -123,6 +122,7 @@ Each point represents a delegate positioned along two latent ideological dimensi
 - Conducted PCA and W-NOMINATE scaling to identify ideological dimensions.  
 - Despite the **nonpartisan structure** of the convention, the analysis revealed **distinct partisan clusters**, particularly on contentious procedural and institutional reform votes.  
 - The **NOMINATE map** and cluster analysis both indicate that delegate alignments mirrored those of traditional party divisions in the broader Pennsylvania political system.
+- For a full report see 
 
 ---
 
