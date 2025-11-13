@@ -30,8 +30,8 @@ The records were transcribed from digitized text files originating from historic
 ### 🧾 Files
 | File | Description |
 |------|-------------|
-| [V1.txt](https://github.com/yourusername/your-repo-name/blob/main/V1.txt) | Raw text file containing the first batch of roll call votes extracted from the Pennsylvania Constitutional Convention transcripts. Each line corresponds to a delegate’s recorded vote. |
-| [V2.txt](https://github.com/yourusername/your-repo-name/blob/main/V2.txt) | Raw text file containing the second batch of roll call votes from later sessions of the convention. |
+| [V1.txt](https://github.com/yourusername/your-repo-name/blob/main/V1.txt) | Raw text file containing the entire record of the first half of the convention. It includes roll call votes as well as verbatim speeches and debates, document propals and texts, attendance, and other related activities. |
+| [V2.txt](https://github.com/yourusername/your-repo-name/blob/main/V2.txt) | Raw text file containing the same as V1 but for the second half of the convention. |
 | [rcv_extraction_and_analysis.ipynb](https://github.com/yourusername/your-repo-name/blob/main/rcv_extraction_and_analysis.ipynb) | Python notebook that parses, cleans, and structures the raw data into a vote-by-delegate matrix, followed by PCA and clustering analysis. |
 | [wnominate.R](https://github.com/yourusername/your-repo-name/blob/main/wnominate.R) | R script implementing **W-NOMINATE** scaling and visualization using **ggplot2**. |
 
