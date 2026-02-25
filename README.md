@@ -116,16 +116,6 @@ The **NOMINATE map** below visualizes delegates’ ideological positions based o
 ---
 
 
-
-## 🚀 Results
-- Extracted and structured roll call data from the Pennsylvania Constitutional Convention of 1968.  
-- Conducted PCA and W-NOMINATE scaling to identify ideological dimensions.  
-- Despite the **nonpartisan structure** of the convention, the analysis revealed **distinct partisan clusters**, particularly on contentious procedural and institutional reform votes.  
-- The **NOMINATE map** and cluster analysis both indicate that delegate alignments mirrored those of traditional party divisions in the broader Pennsylvania political system.
-- For a full report see 
-
----
-
 ## 🚀 Results
 - Extracted and structured roll call data from the **Pennsylvania Constitutional Convention of 1968**.  
 - Conducted **PCA** and **W-NOMINATE scaling** to identify ideological dimensions.  
